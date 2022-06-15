@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 export const Router = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}> //Essa propriedade será útil quando subirmos para o GH-Pages
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
