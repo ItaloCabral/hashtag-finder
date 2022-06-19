@@ -22,6 +22,8 @@ export const Container = styled.div`
             font-weight: bold;
             font-size: 15px;
             letter-spacing: 2px;
+            cursor: pointer;
+            transition: 1s;
 
             img {
                 margin-right: 10px;
@@ -35,9 +37,17 @@ export const Container = styled.div`
             margin-right: 35px;
         }
 
+        .navbar-btn-about:hover {
+            background-color: #2ba08d;
+        }
+
         .navbar-btn-login {
             background-color: #1e3e7b;
             color: #fff;
+        }
+
+        .navbar-btn-login:hover {
+            background-color: #0c2a60;
         }
     }
 `;
