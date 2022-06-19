@@ -70,6 +70,8 @@ export const Container = styled.div`
         }
 
         .content {
+            margin-bottom: 100px;
+
             h2 {
                 text-align: center;
                 font-size: 20px;
